@@ -1,0 +1,10 @@
+﻿System.Console.WriteLine();
+var sql = new SqlConnection("command",TimeSpan.FromSeconds(33));
+sql.Open();
+sql.Close();
+System.Console.WriteLine();
+System.Console.WriteLine();
+var mysql = new MysqlConnection("command2",TimeSpan.FromMinutes(2));
+mysql.Open();
+mysql.Close();
+System.Console.WriteLine();
